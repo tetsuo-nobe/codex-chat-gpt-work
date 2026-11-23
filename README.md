@@ -40,15 +40,15 @@
 * 組み込みブラウザーが使えない
     - 表示はできるが、操作できない
 
-* OpenAI公式の Google Calendar プラグイン は、ChatGPT Work on Amazon Bedrock ではそのまま使えません。
-公式プラグインは ChatGPT のアカウント認証および OpenAI 側のクラウドコネクタ経由で Google アカウントと OAuth 連携する仕組みのため、AWS認証（Bedrock経由）のみの環境では利用できない制限に該当します。
-代わりに、MCP（Model Context Protocol）サーバーをローカルや自社環境に立てて接続することで、同様のカレンダー操作が実現できます。
+* OpenAI 公式の Google Calendar プラグイン は、ChatGPT Work on Amazon Bedrock では使えない。
+公式プラグインは ChatGPT のアカウント認証および OpenAI 側のクラウドコネクタ経由で Google アカウントと OAuth 連携する仕組みのため、AWS認証（Bedrock経由）のみの環境では利用できない制限に該当する。
+代わりに、MCP（Model Context Protocol）サーバーをローカルや自社環境に立てて接続することで、同様のカレンダー操作が実現できる。
 
 
 ## プラグイン
 
 * 有料版の場合はプラグインを追加できる
-* 無料版ではDeskTop盤のみ、限定的に使えるが、Google Calendarなどは使えない
+* 無料版では　DeskTop 版のみ限定的に使えるが、Google Calendarなどは使えない
 
 
 ## スキル
